@@ -1,0 +1,151 @@
+
+button{
+    background: var(--logoColor-2);
+    padding: 8px 20px;
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 32px;
+}
+
+/* vegetabels section start */
+
+    .Product{
+        border-radius: 7px;
+        padding: 4px;
+        overflow: hidden;
+        box-shadow: 0 0 5px #c9c9c9;
+        background-color: white;
+        border: 2px solid transparent;
+    }
+
+    .Product:hover{
+        border: 2px solid var(--logoColor-2);
+    }
+
+    .ProductImg{
+        overflow: hidden;
+        height: 200px;
+        margin-bottom: 0.5rem;
+        border-radius: 7px;
+    }
+
+    .FoductList img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .productText{
+        text-align: center;
+    }
+
+    .NamePrice .Name{
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: .3rem;
+        height: 26px;
+        overflow: hidden;
+    }
+
+    .NamePrice .Quantity{
+        font-size: 15px;
+        margin-bottom: .8rem;
+        font-weight: 600;
+        color: var(--logoColor-1);
+    }
+
+    .NamePrice .Price{
+        font-size: 18px;
+        margin-top: .6rem;
+        font-weight: 600;
+        margin-bottom: .6rem;
+        height: 26px;
+    }
+
+    .discount{
+        text-decoration: line-through;
+        margin-right: .2rem;
+        font-size: 15px;
+        font-weight: normal;
+    }
+
+    .Incement{
+        height: 45px;
+        background-color: #ffc08bfc;
+        width: 90%;
+        margin: auto;
+        border-radius: 35px;
+        margin-bottom: 1rem;
+        box-shadow: 0 0 5px #c6c6c6;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 10px;
+        font-size: 20px;
+    }
+
+    .Incement .Plus,
+    .Incement .Minnus{
+        font-size: 21px;
+        height: 35px;
+        width: 35px;
+        color: white;
+        border-radius: 50%;
+        cursor: pointer;
+        background-color: var(--logoColor-1);
+    }
+
+    .ProductBtnIncement button{
+        font-weight: 600;
+        font-size: 16px;
+        text-transform: uppercase;
+        margin-top: 0.2rem;
+        margin-bottom: 1.2rem;
+        background-color: var(--logoColor-1);
+    }
+
+    .ProductBtnIncement button:hover{
+        background-color: var(--logoColor-2);
+    }
+
+    .Product{
+        position: relative;
+    }
+
+    .DisPersent{
+        position: absolute;
+        padding: 5px; 
+        border-radius: 6px;
+        height: 35px;
+        width: 40px;
+        background-color: var(--logoColor-1);
+        color: white;
+    }
+/* vegetabels section end */
+
+
+/* responsive start */
+@media screen and (min-width: 1200px) {
+    .Compute-20{
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .Product{
+        margin-bottom: 20px;
+    }
+}
+
+:root {
+    --logoColor-1: rgb(146 13 3);
+    --logoColor-2: #de7d2d;
+    --servocehover: #e79855;
+    --navColor: rgb(216, 216, 216);
+    --navIconColor: red;
+    --navmidbg: #75b535;
+    --TopNev: #3c516a;
+    --DestopCatagori: #3e6a10;
+}
